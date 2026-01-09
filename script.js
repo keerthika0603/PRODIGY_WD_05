@@ -1,4 +1,4 @@
-const apiKey = "991e7906f71fc1734ab1eca1d0de9a8e"; // Your OpenWeather API key
+const apiKey = "YOUR_API_KEY";
 
 function getWeather() {
   const city = document.getElementById("cityInput").value.trim();
@@ -38,4 +38,5 @@ function getWeather() {
 document.getElementById("cityInput").addEventListener("keyup", function(e) {
   if (e.key === "Enter") getWeather();
 });
+
 
